@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Demo
 //
-//  Created by bxu3 on 7/14/16.
+//  Created by Bin Xu on 7/17/16.
 //  Copyright © 2016 cisco. All rights reserved.
 //
 
@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        print(Alamofire.AlamofireVersionNumber)
+        print(AlamofireVersionNumber)
         return true
     }
 
